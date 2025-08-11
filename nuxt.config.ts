@@ -8,10 +8,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/apollo'
   ],
-  ssr: true,
-  nitro: {
-    preset: 'netlify',
-  },
+  ssr: false,
   apollo: {
     clients: {
       default: {
